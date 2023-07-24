@@ -9,7 +9,7 @@ export default function App({ Component}: AppProps) {
         <title>test</title>
       </Head>
 
-      <div class="wrapper">
+      <div className="wrapper text-gray-800 overflow-x-hidden">
         <Component />
       </div>
     </>
