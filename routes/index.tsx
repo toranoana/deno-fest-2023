@@ -22,7 +22,7 @@ export default function Home() {
           <div class="max-w-5xl mx-auto px-4 text-center">
             <h1>Deno Fest<br/><small>presented by toranoana.deno</small></h1>
             <div class="py-3 pr-3 pl-8 rounded-full inline-block bg-white shadow"><span class="text-lg font-extrabold mr-5">2023.10.18 10:00 start　@ TOKYO Akihabara</span><LinkButton href="https://example.com">参加申し込みをする（connpass）</LinkButton></div>
-            <p class="mt-5"><small class="font-bold">オンライン配信も実施予定！</small></p>
+            <p class="mt-5"><small class="font-bold">オンライン配信中！</small></p>
           </div>
         </div>
         <div>
