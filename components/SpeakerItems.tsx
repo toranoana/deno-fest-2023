@@ -5,7 +5,7 @@ const speakeritems = [
     nameEn: "Ryan Dahl",
     introduction: "",
     introductionEn: "",
-    image: "/images/guest_01.png",
+    image: "/images/guest_01.jpeg",
   },
   {
     company: "",
@@ -21,7 +21,7 @@ const speakeritems = [
     nameEn: "Tyler",
     introduction: "",
     introductionEn: "",
-    image: "/images/img_deno.png",
+    image: "/images/speaker_04.png",
   },
   {
     company: "",

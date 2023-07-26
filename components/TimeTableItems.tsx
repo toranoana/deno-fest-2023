@@ -25,7 +25,7 @@ const timetableitems = [
     title: "基調講演 deno ♥️ npm: Bridging the Gap Between Node and Deno",
     description: "Deno's arrival reinvented JavaScript runtime with its focus on security and TypeScript support. Yet, the difference in module systems with Node.js has been a challenge, especially with the vast npm packages left untapped for Deno. No more. We've introducing support for Node built-in modules and npm modules in Deno. This talk will detail the journey of implementing npm support, revealing the hurdles, solutions, and the remarkable possibilities it opens. It's our move to reconcile the power of the npm ecosystem with Deno's secure, efficient runtime.",
     speakerName: "Ryan Dahl - ライアン・ダール",
-    speakerImage: "/images/guest_01.png",
+    speakerImage: "/images/guest_01.jpeg",
   },
   {
     time: "13:45 ~ 13:55",
@@ -67,7 +67,7 @@ const timetableitems = [
     title: "SupabaseのAI検索機能",
     description: "SupabaseにはSupabase ClippyというAI検索機能があります。こちらはユーザーの検索に対してSupabase Edge functionsとOpenAIを駆使してChatGPT風に回答結果をユーザーに返すようになっているものです。最近だとMozillaさん同じ検索機能をサイトに追加しており、今後デファクトになるかもしれないAI検索機能！そんなAI検索機能がどのように実装されているのかをお話しいたします。",
     speakerName: "Tyler - タイラー",
-    speakerImage: "/images/img_deno.png",
+    speakerImage: "/images/speaker_04.png",
   },
   {
     time: "15:20 ~ 15:35",

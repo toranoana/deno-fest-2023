@@ -86,7 +86,7 @@ export default function Home() {
               <div className="flex flex-col justify-center -m-2 md:flex-row">
                 <div className="p-3 md:w-1/3">
                   <img
-                    src="/images/guest_01.png"
+                    src="/images/guest_01.jpeg"
                     className="max-w-full rounded-2xl mb-3"
                     alt="the fresh logo: a sliced lemon dripping with juice"
                     width="500" height="500"
@@ -203,21 +203,21 @@ export default function Home() {
               <div className="flex items-center justify-center gap-4">
                 <h2 className="font-extrabold text-xl leading-none text-center text-white">Share</h2>
                 <ul className="flex items-center gap-5 md:gap-8">
-                  <li><a href="https://twitter.com/share?url=https://deno-fest-2023.deno&text=とらのあなTech Conference開催！&hashtags=とらのあな,虎の穴,Tech Conference" rel="nofollow" target="_blank" class="">
+                  <li><a href="https://twitter.com/share?url=https://deno-fest-2023.deno.dev/&text=Deno Fest presented by toranoana.deno&hashtags=とらのあな,虎の穴,Deno" rel="nofollow" target="_blank" class="">
                     <img
                       src="/images/icon_twitter.svg"
                       width="30" height="30"
                       className="md:w-12 md:h-12"
                     />
                     </a></li>
-                  <li><a href="https://www.facebook.com/share.php?u=https://deno-fest-2023.deno" rel="nofollow" target="_blank" onClick={handleClick}>
+                  <li><a href="https://www.facebook.com/share.php?u=https://deno-fest-2023.deno.dev/" rel="nofollow" target="_blank" onClick={handleClick}>
                     <img
                       src="/images/icon_facebook.svg"
                       width="30" height="30"
                       className="md:w-12 md:h-12"
                     />
                     </a></li>
-                  <li><a href="https://b.hatena.ne.jp/entry/s/https://deno-fest-2023.deno" data-hatena-bookmark-title="{Title}" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加" class="share-btn__item share-btn__item--hatebu" target="_blank">
+                  <li><a href="https://b.hatena.ne.jp/entry/s/https://deno-fest-2023.deno.dev/" data-hatena-bookmark-title="{Title}" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加" class="share-btn__item share-btn__item--hatebu" target="_blank">
                     <img
                       src="/images/icon_hatena.svg"
                       width="30" height="30"
