@@ -57,7 +57,7 @@ export default function Home() {
                   <span className="inline-block text-2xl font-extrabold">2023.10.18 10:00 start</span>
                   <span className="inline-block text-2xl font-extrabold">@ TOKYO Akihabara</span>
                 </div>
-                <LinkButton href="https://example.com" className="bg-pink-600 text-white">参加申し込みをする（connpass）</LinkButton>
+                <LinkButton href="https://yumenosora.connpass.com/event/290309/" target="_blank" className="bg-pink-600 text-white">参加申し込みをする（connpass）</LinkButton>
               </div>
               <p className="mt-5 font-bold">オンライン配信も実施予定！</p>
               <img
@@ -135,7 +135,7 @@ export default function Home() {
                       <span className="inline-block text-lg font-extrabold">2023.10.18 10:00 start</span>
                       <span className="inline-block text-lg font-extrabold">@ TOKYO Akihabara</span>
                     </div>
-                    <LinkButton href="https://example.com" className="bg-pink-600 text-white text-xs">参加申し込みをする（connpass）</LinkButton>
+                    <LinkButton href="https://yumenosora.connpass.com/event/290309/" target="_blank" className="bg-pink-600 text-white text-xs">参加申し込みをする（connpass）</LinkButton>
                   </div>
                 </div>
                 <div className="p-4 rounded-xl flex flex-col gap-4 shadow lg:py-8 lg:px-12 relative" style={{ backgroundColor: 'rgba(255,255,255,0.8)' }}>
@@ -234,7 +234,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <a href="" className="fixed bottom-3 left-3 bg-white flex items-center justify-center flex-col text-center w-24 h-24 rounded-full border text-xs text-pink-500 font-bold border-4 border-pink-500 ease-linear duration-150 shadow-lg md:w-28 md:h-28 md:text-sm lg:w-32 lg:h-32 lg:bottom-6 lg:left-6 lg:hover:bg-pink-50 lg:hover:bottom-8">
+        <a href="https://yumenosora.connpass.com/event/290309/" target="_blank" className="fixed bottom-3 left-3 bg-white flex items-center justify-center flex-col text-center w-24 h-24 rounded-full border text-xs text-pink-500 font-bold border-4 border-pink-500 ease-linear duration-150 shadow-lg md:w-28 md:h-28 md:text-sm lg:w-32 lg:h-32 lg:bottom-6 lg:left-6 lg:hover:bg-pink-50 lg:hover:bottom-8">
           参加申し込み<br />をする<br />
           （connpass）
         </a>
