@@ -16,7 +16,7 @@ const SpeakerItem: React.FC<SpeakerItemProps> = ({
   image,
 }) => {
   return (
-    <div className="md:w-1/2 p-2 lg:p-3">
+    <div className="w-full sm:w-1/2 p-2 lg:p-3">
       <div className="p-3 rounded-lg h-full bg-white md:p-5">
         <div className="flex flex-wrap items-center gap-3">
           <img
