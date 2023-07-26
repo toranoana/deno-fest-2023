@@ -1,15 +1,21 @@
 import { Head } from "$fresh/runtime.ts";
 import { useSignal } from "@preact/signals";
 import { LinkButton } from "../components/LinkButton.tsx";
-import Counter from "../islands/Counter.tsx";
-import { Button } from "../components/Button.tsx";
-import ModalMounter from "../islands/ModalMounter.tsx";
+// import { Button } from "../components/Button.tsx";
+// import ModalMounter from "../islands/ModalMounter.tsx";
+import TimeTableItem from "../components/TimeTableItem.tsx";
+import TimeTableItems from "../components/TimeTableItems.tsx";
+import SpeakerItem from "../components/SpeakerItem.tsx";
+import SpeakerItems from "../components/SpeakerItems.tsx";
 
 function handleClick(event: Event) {
   event.preventDefault();
   const href = "https://www.facebook.com/share.php?u=https://deno-fest-2023.deno";
   window.open(href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes');
 }
+
+const timetableitems = TimeTableItems;
+const speakeritems = SpeakerItems;
 
 export default function Home() {
   const count = useSignal(3);
@@ -39,8 +45,14 @@ export default function Home() {
         <div style={{ fontFamily: 'Montserrat, sans-serif' }}>
           <div className="bg-white">
             <div className="max-w-5xl mx-auto px-4 text-center py-16 relative">
-              <h1>Deno Fest<br/><small>presented by toranoana.deno</small></h1>
-              <div className="p-4 rounded-xl inline-block bg-white shadow lg:px-12">
+              <h1 className="text-center pt-6">
+                <img
+                  src="/images/logo_denofest.svg"
+                  className="inline-block max-w-sm w-full h-auto"
+                  width="560" height="164"
+                />
+              </h1>
+              <div className="p-4 rounded-xl inline-block bg-white shadow lg:px-12 mt-12">
                 <div className="mb-3">
                   <span className="inline-block text-2xl font-extrabold">2023.10.18 10:00 start</span>
                   <span className="inline-block text-2xl font-extrabold">@ TOKYO Akihabara</span>
@@ -80,8 +92,10 @@ export default function Home() {
                     width="500" height="500"
                   />
                   <div>
-                    <p className="font-bold text-sm">hogehoge株式会社</p>
-                    <h3 className="font-extrabold text-xl">タイラー<span className="text-base">氏</span><span className="text-sm font-normal ml-3">Tailer</span></h3>
+                    {/* <p className="font-bold text-sm">hogehoge株式会社</p> */}
+                    <h3 className="font-extrabold text-xl">ライアン・ダール<span className="text-base">氏</span><span className="text-sm font-normal ml-3">Ryan Dahl</span></h3>
+                    <p className="text-sm mt-3">Node と Deno 作者。</p>
+                    <p className="text-xs">The creator of Node and Deno.</p>
                   </div>
                 </div>
                 {/* <div className="p-3 md:w-1/3">
@@ -125,54 +139,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-4 rounded-xl flex flex-col gap-4 shadow lg:py-8 lg:px-12 relative" style={{ backgroundColor: 'rgba(255,255,255,0.8)' }}>
-                  <div className="flex flex-col gap-1 flex-1 md:flex-row md:items-center">
-                    <span className="w-16 font-bold">10:00〜</span>
-                    <div className="p-4 rounded-lg bg-white shadow flex-1">
-                      <h4 className="font-bold">始めのご挨拶</h4>
-                      <p className="text-sm">opening greeting</p>
-                      <div className="flex justify-end items-center">
-                        <span className="text-xs font-bold">登壇者名が入ります</span>
-                        <img
-                          src="/images/guest_01.png"
-                          className="max-w-full rounded-lg ml-3"
-                          alt="登壇者名が入ります"
-                          width="40" height="40"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-1 flex-1 md:flex-row md:items-center">
-                    <span className="w-16 font-bold">10:00〜</span>
-                    <div className="p-4 rounded-lg bg-white shadow flex-1">
-                      <h4 className="font-bold">始めのご挨拶</h4>
-                      <p className="text-sm">opening greeting</p>
-                      <div className="flex justify-end items-center">
-                        <span className="text-xs font-bold">登壇者名が入ります</span>
-                        <img
-                          src="/images/guest_01.png"
-                          className="max-w-full rounded-lg ml-3"
-                          alt="登壇者名が入ります"
-                          width="40" height="40"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-1 flex-1 md:flex-row md:items-center">
-                    <span className="w-16 font-bold">10:00〜</span>
-                    <div className="p-4 rounded-lg bg-white shadow flex-1">
-                      <h4 className="font-bold">始めのご挨拶</h4>
-                      <p className="text-sm">opening greeting</p>
-                      <div className="flex justify-end items-center">
-                        <span className="text-xs font-bold">登壇者名が入ります</span>
-                        <img
-                          src="/images/guest_01.png"
-                          className="max-w-full rounded-lg ml-3"
-                          alt="登壇者名が入ります"
-                          width="40" height="40"
-                        />
-                      </div>
-                    </div>
-                  </div>
+                  {/* TimeTableItem コンポーネントの繰り返し表示 */}
+                  {timetableitems.map((timetableitem, index) => (
+                    <TimeTableItem key={index} {...timetableitem} />
+                  ))}
+                  {/* TimeTableItem コンポーネントの繰り返し表示ここまで */}
                   <img
                     src="/images/img_deno_02.png"
                     className="absolute w-24 h-24 -top-20 -left-5 pointer-events-none sm:w-32 sm:h-32 sm:-top-24 sm:-left-0 md:w-40 md:h-40 md:-top-32"
@@ -186,28 +157,12 @@ export default function Home() {
             <div className="max-w-5xl mx-auto px-4 py-16">
               <h2 className="font-extrabold text-3xl leading-none text-center mb-8">Speaker<br/><span className="text-sm">登壇者</span></h2>
               <div className="flex flex-wrap -m-2 lg:-m-3">
-                <div className="md:w-1/2 p-2 lg:p-3">
-                  <div className="p-3 rounded-lg h-full bg-white md:p-5">
-                    <div className="flex flex-wrap items-center gap-3">
-                      <img
-                        src="/images/guest_01.png"
-                        className="max-w-full rounded-lg"
-                        alt="登壇者名が入ります"
-                        width="90" height="90"
-                      />
-                      <div className="">
-                        <p className="text-xs font-bold">hogehoge株式会社</p>
-                        <h4 className="text-lg font-extrabold">山田 太郎<span className="text-xs">氏</span></h4>
-                        <p className="text-xs">Yamada Taro</p>
-                      </div>
-                    </div>
-                    <div>                  
-                      <p className="text-sm mt-3">紹介文が入ります。紹介文が入ります。紹介文が入ります。紹介文が入ります。紹介文が入ります。紹介文が入ります。紹介文が入ります。</p>
-                      <p className="text-xs mt-2">Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="md:w-1/2 p-2 lg:p-3">
+                {/* ここでSpeakerItemコンポーネントを繰り返し表示 */}
+                {speakeritems.map((speakeritem, index) => (
+                  <SpeakerItem key={index} {...speakeritem} />
+                ))}
+                {/* ここまでSpeakerItemコンポーネントの繰り返し表示 */}
+                {/* <div className="md:w-1/2 p-2 lg:p-3">
                   <div className="p-3 rounded-lg h-full bg-white md:p-5">
                     <div className="flex flex-wrap items-center gap-3">
                       <img
@@ -227,8 +182,20 @@ export default function Home() {
                       <p className="text-xs mt-2">Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
+            </div>
+          </div>
+          <div>
+            <div className="max-w-5xl mx-auto px-4 py-16 text-gray-600">
+              <h2 className="font-extrabold text-3xl leading-none text-center mb-8">Notice and Code of Conduct<br/><span className="text-sm">注意事項 および 行動規範</span></h2>
+              <ul className="text-sm list-disc max-w-3xl mx-auto pl-4">
+                <li>セクシュアルハラスメント、パワーハラスメント、ストーカー等の他者への迷惑行為を禁止します。</li>
+                <li>ネットワークビジネス等、その対象を問わず販売、勧誘、あっせん等を行うこと。また、宗教活動または政治活動を禁止します。</li>
+                <li>その他、イベントの趣旨・目的から逸脱した行為や、本来のイベント趣旨とは異なる行為があると判断した場合、退場いただいたうえで次回以降のイベント参加をお断りさせて頂きます。</li>
+                <li>当イベントへの参加は、事前登録をいただいた方のみに限定させていただきます。</li>
+                <li>イベントの様子をブログや各種メディアにて発信するため、開催中に写真撮影をする場合がございます。ご了承お願い致します。</li>
+              </ul>
             </div>
           </div>
           <div>
