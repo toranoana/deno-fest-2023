@@ -54,7 +54,7 @@ export default function Home() {
               </h1>
               <div className="p-4 rounded-xl inline-block bg-white shadow lg:px-12 mt-12">
                 <div className="mb-3">
-                  <span className="inline-block text-2xl font-extrabold">2023.10.18 10:00 start</span>
+                  <span className="inline-block text-2xl font-extrabold">2023.10.20 13:00 start</span>
                   <span className="inline-block text-2xl font-extrabold">@ TOKYO Akihabara</span>
                 </div>
                 <LinkButton href="https://yumenosora.connpass.com/event/290309/" target="_blank" className="bg-pink-600 text-white">参加申し込みをする（connpass）</LinkButton>

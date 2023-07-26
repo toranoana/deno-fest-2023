@@ -114,7 +114,7 @@ const timetableitems = [
   {
     time: "16:45 ~ 17:00",
     title: "Civic Tech by Open ESM in Pure JavaScript",
-    description: "Civic Tech by Open ESM in Pure JavaScript",
+    description: "36年、100のプログラミング言語を経験して辿り着いたベスト、それが ESM in Pure JavaScript on Deno。シビックテック集団、Code for FUKUIのESモジュールトップ5と共にその魅力をご紹介します。",
     speakerName: "Taisuke Fukuno - 福野泰介",
     speakerImage: "/images/speaker_03.jpeg",
   },
