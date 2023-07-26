@@ -28,17 +28,23 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>test</title>
+        <title>Deno Fest presented by toranoana.deno</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
+        <meta name="msapplication-TileColor" content="#64D7D7" />
+        <meta name="theme-color" content="#64D7D7" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;800&display=swap" rel="stylesheet" />
       </Head>
 
       <div className="text-gray-800" style={{ background: "linear-gradient(90deg, #2EB8DE 0%, #99F5D1 100%);" }}>
-        <div className="absolute w-100">
+        <div className="absolute w-full">
           <img
             src="/images/bg_01.jpg"
-            className="w-100 h-auto"
+            className="w-full h-auto"
             width="2880" height="1600"
           />
         </div>

@@ -6,7 +6,7 @@ export default function App({ Component}: AppProps) {
   return (
     <>
       <Head>
-        <title>test</title>
+        {/* <title>test</title> */}
       </Head>
 
       <div className="wrapper overflow-x-hidden">
