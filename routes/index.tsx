@@ -84,27 +84,27 @@ export default function Home() {
                   height="164"
                 />
               </h1>
-              <div className="p-4 rounded-xl inline-block bg-white shadow lg:px-12 mt-12">
-                <div className="mb-3">
+              <div className="p-4 rounded-xl inline-block bg-white shadow sm:px-8 md:px-12 mt-12">
+                <div className="mb-3 flex flex-col md:flex-row md:gap-4">
                   <span className="inline-block text-2xl font-extrabold">
                     2023.10.20 13:00 start
                   </span>
                   <span className="inline-block text-2xl font-extrabold">
-                    @ TOKYO Akihabara
+                    @TOKYO Akihabara
                   </span>
                 </div>
+                <p className="mt-4 font-bold">＼　オンライン、オンラインで開催！！ ／</p>
                 <LinkButton
                   href="https://yumenosora.connpass.com/event/290309/"
                   target="_blank"
-                  className="bg-pink-600 text-white"
+                  className="bg-pink-600 text-white mt-2"
                 >
                   参加申し込みをする（connpass）
                 </LinkButton>
               </div>
-              <p className="mt-5 font-bold">オンライン配信も実施予定！</p>
               <img
                 src="/images/img_deno_01.png"
-                className="w-32 h-32 absolute -bottom-4 -right-6 sm:w-48 sm:h-48 md:w-60 md:h-60"
+                className="w-32 h-32 absolute -bottom-4 -right-6 sm:w-48 sm:h-48 md:w-52 md:h-52 lg:w-64 lg:h-64"
                 width="300"
                 height="300"
               />
@@ -207,7 +207,7 @@ export default function Home() {
                   <div className="py-4 px-5 rounded-xl inline-block bg-white shadow mb-6 lg:px-12">
                     <div className="mb-3">
                       <span className="inline-block text-lg font-extrabold">
-                        2023.10.18 10:00 start
+                        2023.10.20 13:00 start
                       </span>
                       <span className="inline-block text-lg font-extrabold">
                         @ TOKYO Akihabara
