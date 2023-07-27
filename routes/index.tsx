@@ -114,7 +114,7 @@ export default function Home() {
                 <LinkButton
                   href="https://yumenosora.connpass.com/event/290309/"
                   target="_blank"
-                  className="bg-pink-600 text-white mt-2"
+                  className="bg-pink-600 text-white mt-2 hover:opacity-70 ease-linear duration-150"
                 >
                   参加申し込みをする（connpass）
                 </LinkButton>
@@ -210,7 +210,7 @@ export default function Home() {
                     <LinkButton
                       href="https://yumenosora.connpass.com/event/290309/"
                       target="_blank"
-                      className="bg-pink-600 text-white text-xs mt-2"
+                      className="bg-pink-600 text-white text-xs mt-2 hover:opacity-70 ease-linear duration-150"
                     >
                       参加申し込みをする（connpass）
                     </LinkButton>
