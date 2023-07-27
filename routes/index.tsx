@@ -109,7 +109,7 @@ export default function Home() {
                   </span>
                 </div>
                 <p className="mt-4 font-bold">
-                  ＼　オンライン、オンラインで開催！！ ／
+                  ＼　オフライン、オンラインで開催！！ ／
                 </p>
                 <LinkButton
                   href="https://yumenosora.connpass.com/event/290309/"
