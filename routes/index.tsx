@@ -167,32 +167,6 @@ export default function Home() {
                     <p className="text-xs">The creator of Node and Deno.</p>
                   </div>
                 </div>
-                {
-                  /* <div className="p-3 md:w-1/3">
-                  <img
-                    src="/images/guest_01.png"
-                    className="max-w-full rounded-2xl mb-3"
-                    alt="the fresh logo: a sliced lemon dripping with juice"
-                    width="500" height="500"
-                  />
-                  <div>
-                    <p className="font-bold text-sm">hogehoge株式会社</p>
-                    <h3 className="font-extrabold text-xl">タイラー<span className="text-base">氏</span><span className="text-sm font-normal ml-3">Tailer</span></h3>
-                  </div>
-                </div>
-                <div className="p-3 md:w-1/3">
-                  <img
-                    src="/images/guest_01.png"
-                    className="max-w-full rounded-2xl mb-3"
-                    alt="the fresh logo: a sliced lemon dripping with juice"
-                    width="500" height="500"
-                  />
-                  <div>
-                    <p className="font-bold text-sm">hogehoge株式会社</p>
-                    <h3 className="font-extrabold text-xl">タイラー<span className="text-base">氏</span><span className="text-sm font-normal ml-3">Tailer</span></h3>
-                  </div>
-                </div> */
-                }
               </div>
             </div>
           </div>
@@ -253,30 +227,26 @@ export default function Home() {
                   <SpeakerItem key={index} {...speakerItem} />
                 ))}
                 {/* ここまでSpeakerItemコンポーネントの繰り返し表示 */}
-                {
-                  /* <div className="md:w-1/2 p-2 lg:p-3">
-                  <div className="p-3 rounded-lg h-full bg-white md:p-5">
-                    <div className="flex flex-wrap items-center gap-3">
-                      <img
-                        src="/images/guest_01.png"
-                        className="max-w-full rounded-lg"
-                        alt="登壇者名が入ります"
-                        width="90" height="90"
-                      />
-                      <div className="">
-                        <p className="text-xs font-bold">hogehoge株式会社</p>
-                        <h4 className="text-lg font-extrabold">山田 太郎<span className="text-xs">氏</span></h4>
-                        <p className="text-xs">Yamada Taro</p>
-                      </div>
-                    </div>
-                    <div>
-                      <p className="text-sm mt-3">紹介文が入ります。紹介文が入ります。紹介文が入ります。</p>
-                      <p className="text-xs mt-2">Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.Enter an introduction.</p>
-                    </div>
-                  </div>
-                </div> */
-                }
               </div>
+            </div>
+          </div>
+          <div>
+            <div className="max-w-5xl mx-auto px-4 py-16 text-gray-600">
+              <h2 className="font-extrabold text-3xl leading-none text-center mb-8">
+              Corona measures<br />
+                <span className="text-sm">コロナ対策</span>
+              </h2>
+              <div className="text-sm max-w-3xl mx-auto">
+                テキストの時はここに入力
+              </div>
+              <ul className="text-sm list-disc max-w-3xl mx-auto pl-4">
+                <li>
+                  リストの時はここに入力
+                </li>
+                <li>
+                リストの時はここに入力
+                </li>
+              </ul>
             </div>
           </div>
           <div>
