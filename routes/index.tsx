@@ -284,6 +284,32 @@ export default function Home() {
             </div>
           </div>
           <div>
+            <div className="max-w-5xl mx-auto px-4 py-16">
+              <h2 className="font-extrabold text-3xl leading-none text-center mb-8 text-gray-600">
+                Sponsorship<br />
+                <span className="text-sm">協賛</span>
+              </h2>
+              <div className="flex items-center justify-center gap-6 md:gap-12">
+                <a href="https://yumenosora.co.jp/tora-lab" target="_blank">
+                  <img
+                    src="/images/logo_lab.png"
+                    width="1129"
+                    height="361"
+                    className="w-auto h-12"
+                  />
+                </a>
+                <a href="https://deno.land/" target="_blank">
+                  <img
+                    src="/images/logo_deno.png"
+                    width="1351"
+                    height="512"
+                    className="w-auto h-16"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
             <div className="max-w-5xl mx-auto px-4 py-16 relative">
               <div className="flex items-center justify-center gap-4">
                 <h2 className="font-extrabold text-xl leading-none text-center text-white">

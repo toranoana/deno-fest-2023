@@ -24,7 +24,7 @@ export function SpeakerItem({
   return (
     <div className="w-full sm:w-1/2 p-2 lg:p-3">
       <div className="p-3 rounded-lg h-full bg-white md:p-5">
-        <div className="flex flex-wrap items-center gap-3">
+        <div className="flex items-center gap-3">
           <img
             src={image}
             className="max-w-full rounded-lg"
@@ -33,7 +33,7 @@ export function SpeakerItem({
             height="90"
           />
           <div className="">
-            {company && <p className="text-xs font-bold">{company}</p>}
+            {company && <p className="text-xs font-bold mb-1">{company}</p>}
             <h4 className="text-lg font-extrabold">
               {name}
               <span className="text-xs">氏</span>
