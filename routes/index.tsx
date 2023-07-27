@@ -292,7 +292,7 @@ export default function Home() {
                 <ul className="flex items-center gap-5 md:gap-8">
                   <li>
                     <a
-                      href="https://twitter.com/share?url=https://deno-fest-2023.deno.dev/&text=Deno Fest presented by toranoana.deno&hashtags=とらのあな,虎の穴,Deno"
+                      href="https://twitter.com/share?url=https://deno-fest-2023.deno.dev/&text=Deno Fest presented by toranoana.deno&hashtags=とらのあな,虎の穴,Deno,deno_fest,toranoana_deno"
                       rel="nofollow"
                       target="_blank"
                       class=""
