@@ -85,7 +85,7 @@ export default function Home() {
                 />
               </h1>
               <div className="p-4 rounded-xl inline-block bg-white shadow sm:px-8 md:px-12 mt-12">
-                <div className="mb-3 flex flex-col md:flex-row md:gap-4">
+                <div className="mb-3 flex flex-col sm:flex-row sm:gap-4">
                   <span className="inline-block text-2xl font-extrabold">
                     2023.10.20 13:00 start
                   </span>
@@ -116,8 +116,8 @@ export default function Home() {
                 className="font-extrabold text-3xl leading-none text-center mb-8"
                 style={{ color: "#27B9A7" }}
               >
-                Message<br />
-                <span className="text-sm">メッセージ</span>
+                Message from the organizer<br />
+                <span className="text-sm">主催者からのメッセージ</span>
               </h2>
               <div className="md:text-center">
                 <p>
@@ -179,18 +179,19 @@ export default function Home() {
                 </h2>
                 <div className="text-center">
                   <div className="py-4 px-5 rounded-xl inline-block bg-white shadow mb-6 lg:px-12">
-                    <div className="mb-3">
+                    <div className="mb-3 flex flex-col sm:gap-2 sm:flex-row">
                       <span className="inline-block text-lg font-extrabold">
                         2023.10.20 13:00 start
                       </span>
                       <span className="inline-block text-lg font-extrabold">
-                        @ TOKYO Akihabara
+                        @TOKYO Akihabara
                       </span>
                     </div>
+                    <p className="mt-3 font-bold text-sm">＼　オンライン、オンラインで開催！！ ／</p>
                     <LinkButton
                       href="https://yumenosora.connpass.com/event/290309/"
                       target="_blank"
-                      className="bg-pink-600 text-white text-xs"
+                      className="bg-pink-600 text-white text-xs mt-2"
                     >
                       参加申し込みをする（connpass）
                     </LinkButton>
