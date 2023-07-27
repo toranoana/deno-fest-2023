@@ -5,6 +5,9 @@ interface SpeakerItemProps {
   introduction?: string;
   introductionEn?: string;
   image: string;
+  github?: string;
+  twitter?: string;
+  website?: string;
 }
 
 export function SpeakerItem({
@@ -14,6 +17,9 @@ export function SpeakerItem({
   introduction = "", // デフォルト値を空の文字列に設定
   introductionEn = "", // デフォルト値を空の文字列に設定
   image,
+  github = "", // デフォルト値を空の文字列に設定
+  twitter = "", // デフォルト値を空の文字列に設定
+  website = "", // デフォルト値を空の文字列に設定
 }: SpeakerItemProps) {
   return (
     <div className="w-full sm:w-1/2 p-2 lg:p-3">
@@ -33,6 +39,11 @@ export function SpeakerItem({
               <span className="text-xs">氏</span>
             </h4>
             <p className="text-xs">{nameEn}</p>
+            <ul className="flex flex-wrap gap-2">
+              {github && <li class="mt-2"><a target="_blank" href={github}><i class="fab fa-github"></i></a></li>}
+              {twitter && <li class="mt-2"><a target="_blank" href={twitter}><i class="fab fa-twitter"></i></a></li>}
+              {website && <li class="mt-2"><a target="_blank" href={website}><i class="fas fa-globe"></i></a></li>}
+            </ul>
           </div>
         </div>
         <div>

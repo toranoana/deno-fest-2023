@@ -6,6 +6,9 @@ export const speakerItems = [
     introduction: "Node と Deno 作者。",
     introductionEn: "The creator of Node and Deno.",
     image: "/images/guest_01.jpeg",
+    github: "",
+    twitter: "https://twitter.com/ry",
+    website: "https://tinyclouds.org/",
   },
   {
     company: "一般社団法人 Japan Node.js Association",
@@ -14,6 +17,9 @@ export const speakerItems = [
     introduction: "一般社団法人 Japan Node.js Association 代表理事",
     introductionEn: "",
     image: "/images/speaker_01.jpeg",
+    github: "https://github.com/yosuke-furukawa",
+    twitter: "https://twitter.com/yosuke_furukawa",
+    website: "",
   },
   {
     company: "Supabase",
@@ -22,6 +28,9 @@ export const speakerItems = [
     introduction: "SupabaseでDevRelとFlutterのSDKを開発しているタイラーです。",
     introductionEn: "",
     image: "/images/speaker_04.png",
+    github: "https://github.com/dshukertjr",
+    twitter: "https://twitter.com/dshukertjr",
+    website: "https://qiita.com/dshukertjr",
   },
   {
     company: "",
@@ -30,6 +39,9 @@ export const speakerItems = [
     introduction: "Vim, Python, Rust, Deno な人",
     introductionEn: "",
     image: "/images/speaker_02.png",
+    github: "https://github.com",
+    twitter: "",
+    website: "",
   },
   {
     company: "株式会社jig.jp",
@@ -39,6 +51,9 @@ export const speakerItems = [
       "株式会社jig.jp代表取締役社長、MSX育ち、福井高専出身、鯖江市在住、jigブラウザ開発者、デジタル庁オープンデータ伝道師、IchigoJam開発者、神山まるごと高専技術教育統括ディレクター、一日一創。",
     introductionEn: "",
     image: "/images/speaker_03.jpeg",
+    github: "",
+    twitter: "",
+    website: "https://fukuno.jig.jp/",
   },
   {
     company: "",
@@ -48,6 +63,9 @@ export const speakerItems = [
       "博士（工学）の主夫です。ハッカソンでグッズをもらって喜んでいたら声を掛けていただきました。 ",
     introductionEn: "",
     image: "/images/speaker_05.png",
+    github: "https://github.com/hasundue",
+    twitter: "",
+    website: "",
   },
   // 他のイベントデータを追加
 ];
