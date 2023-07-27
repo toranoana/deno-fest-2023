@@ -304,20 +304,20 @@ export default function Home() {
                 <span className="text-sm">協賛</span>
               </h2>
               <div className="flex items-center justify-center gap-6 md:gap-12">
-                <a href="https://yumenosora.co.jp/tora-lab" target="_blank">
+                <a href="https://yumenosora.co.jp/tora-lab" target="_blank" className="hover:opacity-70 ease-linear duration-150">
                   <img
                     src="/images/logo_lab.png"
                     width="1129"
                     height="361"
-                    className="w-auto h-12"
+                    className="w-auto h-12 md:h-20"
                   />
                 </a>
-                <a href="https://deno.land/" target="_blank">
+                <a href="https://deno.land/" target="_blank" className="hover:opacity-70 ease-linear duration-150">
                   <img
                     src="/images/logo_deno.png"
                     width="1351"
                     height="512"
-                    className="w-auto h-16"
+                    className="w-auto h-16 md:h-24"
                   />
                 </a>
               </div>
