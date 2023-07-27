@@ -7,13 +7,6 @@ export const timeTableItems = [
     speakerImage: "",
   },
   {
-    time: "12:30 ~ 12:40",
-    title: "公開配信テスト",
-    description: "",
-    speakerName: "",
-    speakerImage: "",
-  },
-  {
     time: "13:00 ~ 13:10",
     title: "オープニング",
     description: "",

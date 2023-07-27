@@ -93,7 +93,9 @@ export default function Home() {
                     @TOKYO Akihabara
                   </span>
                 </div>
-                <p className="mt-4 font-bold">＼　オンライン、オンラインで開催！！ ／</p>
+                <p className="mt-4 font-bold">
+                  ＼　オンライン、オンラインで開催！！ ／
+                </p>
                 <LinkButton
                   href="https://yumenosora.connpass.com/event/290309/"
                   target="_blank"
@@ -187,7 +189,9 @@ export default function Home() {
                         @TOKYO Akihabara
                       </span>
                     </div>
-                    <p className="mt-3 font-bold text-sm">＼　オンライン、オンラインで開催！！ ／</p>
+                    <p className="mt-3 font-bold text-sm">
+                      ＼　オンライン、オンラインで開催！！ ／
+                    </p>
                     <LinkButton
                       href="https://yumenosora.connpass.com/event/290309/"
                       target="_blank"
@@ -234,18 +238,21 @@ export default function Home() {
           <div>
             <div className="max-w-5xl mx-auto px-4 py-16 text-gray-600">
               <h2 className="font-extrabold text-3xl leading-none text-center mb-8">
-              Corona measures<br />
+                Corona measures<br />
                 <span className="text-sm">コロナ対策</span>
               </h2>
-              <div className="text-sm max-w-3xl mx-auto">
-                テキストの時はここに入力
-              </div>
               <ul className="text-sm list-disc max-w-3xl mx-auto pl-4">
                 <li>
-                  リストの時はここに入力
+                  感染拡大などやむをえない事情があった場合、オフラインでの開催は中止させて頂く場合があります。ご了承下さい。
                 </li>
                 <li>
-                リストの時はここに入力
+                  発熱(37.5度以上)や風邪などの症状がある場合、参加をお控えください。
+                </li>
+                <li>
+                  会場内ではマスクの着用のご協力をお願いいたします。大声での会話はお控えください。
+                </li>
+                <li>
+                  会場施設の入口に消毒液が設置いたします。入場時に手の消毒をお願いいたします。
                 </li>
               </ul>
             </div>

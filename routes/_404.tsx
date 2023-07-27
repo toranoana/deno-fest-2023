@@ -1,5 +1,4 @@
 import { Head} from "$fresh/runtime.ts";
-import { Handlers } from "$fresh/server.ts";
 
 export default function Error404() {
   return (
