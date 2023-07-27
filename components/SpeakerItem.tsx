@@ -7,14 +7,14 @@ interface SpeakerItemProps {
   image: string;
 }
 
-const SpeakerItem: React.FC<SpeakerItemProps> = ({
+export function SpeakerItem({
   company = "", // デフォルト値を空の文字列に設定
   name,
   nameEn,
   introduction = "", // デフォルト値を空の文字列に設定
   introductionEn = "", // デフォルト値を空の文字列に設定
   image,
-}) => {
+}: SpeakerItemProps) {
   return (
     <div className="w-full sm:w-1/2 p-2 lg:p-3">
       <div className="p-3 rounded-lg h-full bg-white md:p-5">
@@ -27,9 +27,7 @@ const SpeakerItem: React.FC<SpeakerItemProps> = ({
             height="90"
           />
           <div className="">
-            {company && (
-              <p className="text-xs font-bold">{company}</p>
-            )}
+            {company && <p className="text-xs font-bold">{company}</p>}
             <h4 className="text-lg font-extrabold">
               {name}
               <span className="text-xs">氏</span>
@@ -38,16 +36,10 @@ const SpeakerItem: React.FC<SpeakerItemProps> = ({
           </div>
         </div>
         <div>
-          {introduction && (
-            <p className="text-sm mt-3">{introduction}</p>
-          )}
-          {introductionEn && (
-            <p className="text-xs mt-2">{introductionEn}</p>
-          )}
+          {introduction && <p className="text-sm mt-3">{introduction}</p>}
+          {introductionEn && <p className="text-xs mt-2">{introductionEn}</p>}
         </div>
       </div>
     </div>
   );
-};
-
-export default SpeakerItem;
+}

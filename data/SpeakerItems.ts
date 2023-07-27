@@ -1,4 +1,4 @@
-const speakeritems = [
+export const speakerItems = [
   {
     company: "",
     name: "ライアン・ダール",
@@ -49,5 +49,3 @@ const speakeritems = [
   },
   // 他のイベントデータを追加
 ];
-
-export default speakeritems;

@@ -1,4 +1,4 @@
-const timetableitems = [
+export const timeTableItems = [
   {
     time: "12:00 ~ 12:30",
     title: "開場",
@@ -23,7 +23,8 @@ const timetableitems = [
   {
     time: "13:10 ~ 13:35	",
     title: "基調講演 deno ♥️ npm: Bridging the Gap Between Node and Deno",
-    description: "Deno's arrival reinvented JavaScript runtime with its focus on security and TypeScript support. Yet, the difference in module systems with Node.js has been a challenge, especially with the vast npm packages left untapped for Deno. No more. We've introducing support for Node built-in modules and npm modules in Deno. This talk will detail the journey of implementing npm support, revealing the hurdles, solutions, and the remarkable possibilities it opens. It's our move to reconcile the power of the npm ecosystem with Deno's secure, efficient runtime.",
+    description:
+      "Deno's arrival reinvented JavaScript runtime with its focus on security and TypeScript support. Yet, the difference in module systems with Node.js has been a challenge, especially with the vast npm packages left untapped for Deno. No more. We've introducing support for Node built-in modules and npm modules in Deno. This talk will detail the journey of implementing npm support, revealing the hurdles, solutions, and the remarkable possibilities it opens. It's our move to reconcile the power of the npm ecosystem with Deno's secure, efficient runtime.",
     speakerName: "Ryan Dahl - ライアン・ダール",
     speakerImage: "/images/guest_01.jpeg",
   },
@@ -65,7 +66,8 @@ const timetableitems = [
   {
     time: "15:05 ~ 15:20",
     title: "SupabaseのAI検索機能",
-    description: "SupabaseにはSupabase ClippyというAI検索機能があります。こちらはユーザーの検索に対してSupabase Edge functionsとOpenAIを駆使してChatGPT風に回答結果をユーザーに返すようになっているものです。最近だとMozillaさん同じ検索機能をサイトに追加しており、今後デファクトになるかもしれないAI検索機能！そんなAI検索機能がどのように実装されているのかをお話しいたします。",
+    description:
+      "SupabaseにはSupabase ClippyというAI検索機能があります。こちらはユーザーの検索に対してSupabase Edge functionsとOpenAIを駆使してChatGPT風に回答結果をユーザーに返すようになっているものです。最近だとMozillaさん同じ検索機能をサイトに追加しており、今後デファクトになるかもしれないAI検索機能！そんなAI検索機能がどのように実装されているのかをお話しいたします。",
     speakerName: "Tyler - タイラー",
     speakerImage: "/images/speaker_04.png",
   },
@@ -79,7 +81,8 @@ const timetableitems = [
   {
     time: "15:35 ~ 15:50",
     title: "金曜 DENO DE SHOW",
-    description: "一人の技術者が仕事を進めるために必要だった、ヤクの毛刈りに関するおはなし。非同期処理を抽象的に扱うため、unknown 型の扱いを楽にするため、Worker メッセージを抽象的に扱うため、などなど、開発してきた数多のサードパーティモジュールの開発動機や使い方紹介など。",
+    description:
+      "一人の技術者が仕事を進めるために必要だった、ヤクの毛刈りに関するおはなし。非同期処理を抽象的に扱うため、unknown 型の扱いを楽にするため、Worker メッセージを抽象的に扱うため、などなど、開発してきた数多のサードパーティモジュールの開発動機や使い方紹介など。",
     speakerName: "Alisue - ありすえ",
     speakerImage: "/images/speaker_02.png",
   },
@@ -114,7 +117,8 @@ const timetableitems = [
   {
     time: "16:45 ~ 17:00",
     title: "Civic Tech by Open ESM in Pure JavaScript",
-    description: "36年、100のプログラミング言語を経験して辿り着いたベスト、それが ESM in Pure JavaScript on Deno。シビックテック集団、Code for FUKUIのESモジュールトップ5と共にその魅力をご紹介します。",
+    description:
+      "36年、100のプログラミング言語を経験して辿り着いたベスト、それが ESM in Pure JavaScript on Deno。シビックテック集団、Code for FUKUIのESモジュールトップ5と共にその魅力をご紹介します。",
     speakerName: "Taisuke Fukuno - 福野泰介",
     speakerImage: "/images/speaker_03.jpeg",
   },
@@ -128,7 +132,8 @@ const timetableitems = [
   {
     time: "17:10 ~ 17:20",
     title: "Deno KV でログを永続化する",
-    description: "Deno KV ハッカソンに提出して技術賞を頂いたログ永続化ライブラリ&デモアプリの設計や制作過程で得られた知見を紹介します。",
+    description:
+      "Deno KV ハッカソンに提出して技術賞を頂いたログ永続化ライブラリ&デモアプリの設計や制作過程で得られた知見を紹介します。",
     speakerName: "Shun Ueda (Chiezo) - 上田 駿",
     speakerImage: "/images/img_deno.png",
   },
@@ -195,8 +200,5 @@ const timetableitems = [
     speakerName: "",
     speakerImage: "",
   },
-  
   // 他のイベントデータを追加
 ];
-
-export default timetableitems;

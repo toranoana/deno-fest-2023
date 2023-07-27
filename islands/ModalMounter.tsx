@@ -3,7 +3,7 @@ import { useState } from "preact/hooks";
 import Modal from "../components/Modal.tsx";
 
 export default function ModalMounter(
-  props: JSX.HTMLAttributes<HTMLElement>|{text: string, imgpath: string},
+  props: JSX.HTMLAttributes<HTMLElement> & { text: string; imgpath: string },
 ) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
