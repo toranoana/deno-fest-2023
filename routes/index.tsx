@@ -397,7 +397,7 @@ export default function Home() {
           （connpass）
         </a>
         {
-          /* <a href="" className="fixed bottom-3 left-3 bg-white flex items-center justify-center flex-col text-center w-24 h-24 rounded-full border text-xs text-pink-500 font-bold border-4 border-pink-500 ease-linear duration-150 shadow-lg md:w-28 md:h-28 md:text-sm lg:w-32 lg:h-32 lg:bottom-6 lg:left-6 lg:hover:bg-pink-50 lg:hover:bottom-8">
+          /* <a href="https://www.youtube.com/watch?v=dAt-r7-Imgk" target="_blank" className="fixed bottom-3 left-3 bg-white flex items-center justify-center flex-col text-center w-24 h-24 rounded-full border text-xs text-pink-500 font-bold border-4 border-pink-500 ease-linear duration-150 shadow-lg md:w-28 md:h-28 md:text-sm lg:w-32 lg:h-32 lg:bottom-6 lg:left-6 lg:hover:bg-pink-50 lg:hover:bottom-8">
           <img
             src="/images/icon_live.svg"
             width="49" height="24"
