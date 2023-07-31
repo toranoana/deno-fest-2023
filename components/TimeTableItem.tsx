@@ -19,7 +19,7 @@ export function TimeTableItem({
       <span className="w-28 font-bold">{time}</span>
       <div className="p-4 rounded-lg bg-white shadow flex-1">
         <h4 className="font-bold">{title}</h4>
-        {description && <p className="text-sm mt-2">{description}</p>}
+        {description && <p className="text-sm mt-2 break-words whitespace-pre-wrap">{description}</p>}
         <div className="flex justify-end items-center">
           {speakerName && (
             <span className="text-xs font-bold">{speakerName}</span>

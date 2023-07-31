@@ -78,4 +78,15 @@ export const speakerItems = [
     twitter: "https://twitter.com/jinjor",
     website: "",
   },
+  {
+    company: "Cloudflare, inc.",
+    name: "和田裕介",
+    nameEn: "Yusuke Wada",
+    introduction: "Cloudflare Developer Advocate。Honoの作者。Webフレームワークエンジニア。",
+    introductionEn: "",
+    image: "/images/speaker_07.jpg",
+    github: "https://github.com/yusukebe",
+    twitter: "https://twitter.com/yusukebe",
+    website: "",
+  }
 ];

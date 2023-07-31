@@ -88,10 +88,15 @@ export const timeTableItems = [
   },
   {
     time: "16:00 ~ 16:15",
-    title: "セッション 7：coming soon",
-    description: "",
-    speakerName: "",
-    speakerImage: "",
+    title: "セッション 7：The power of Web-standards",
+    description: `Honoは外部ライブラリに依存せず、WinterCGでディスカッションされている「Web-standard APIs」のみを使ったWebフレームワークです。本トークでは「Web-standard APIs」に焦点をあてつつ以下について話します。
+* Hono内で使っているWeb-standard APIs
+* HonoのDeno対応
+* どのランタイムでも動かす
+* スタンダードではないもの
+* WinterCG`,
+    speakerName: "Yusuke Wada - 和田裕介",
+    speakerImage: "/images/speaker_07.jpg",
   },
   {
     time: "16:15 ~ 16:30",
