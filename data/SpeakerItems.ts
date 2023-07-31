@@ -74,8 +74,8 @@ export const speakerItems = [
     introduction: "プログラミングと音楽が好き。得意領域はフロントエンド。",
     introductionEn: "",
     image: "/images/speaker_06.jpg",
-    github: "",
-    twitter: "https://twitter.com/jinjor https://github.com/jinjor",
+    github: "https://github.com/jinjor",
+    twitter: "https://twitter.com/jinjor",
     website: "",
   },
 ];
