@@ -7,7 +7,7 @@ export function basicAuthHandler(req: Request, ctx: MiddlewareHandlerContext) {
     const authObject: { [key: string]: string } = {};
     authObject[envConfig.BASIC_USER] = envConfig.BASIC_PASSWORD;
 
-    const unauthorized = basicAuth(req, "Access to 1h. reboot", authObject);
+    const unauthorized = basicAuth(req, "not auth", authObject);
 
     if (unauthorized) {
       return unauthorized;

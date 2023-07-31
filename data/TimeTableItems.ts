@@ -132,10 +132,10 @@ export const timeTableItems = [
   },
   {
     time: "17:20 ~ 17:30",
-    title: "セッション 12：coming soon",
-    description: "",
-    speakerName: "",
-    speakerImage: "",
+    title: "セッション 12：Deno KV で投稿系サイトを作ってみた話",
+    description: "Deno Deploy で KV が使えるようになったので、\"オンライン万華鏡\" の投稿サイトを作ってみました。その中で感じたことなどをお話しします。",
+    speakerName: "jinjor - ジンジャー",
+    speakerImage: "/images/speaker_06.jpg",
   },
   {
     time: "17:30 ~ 17:40",

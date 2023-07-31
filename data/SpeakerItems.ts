@@ -67,5 +67,15 @@ export const speakerItems = [
     twitter: "",
     website: "",
   },
-  // 他のイベントデータを追加
+  {
+    company: "株式会社ナレッジワーク",
+    name: "ジンジャー",
+    nameEn: "Jinjor",
+    introduction: "プログラミングと音楽が好き。得意領域はフロントエンド。",
+    introductionEn: "",
+    image: "/images/speaker_06.jpg",
+    github: "",
+    twitter: "https://twitter.com/jinjor https://github.com/jinjor",
+    website: "",
+  },
 ];
