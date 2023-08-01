@@ -88,5 +88,17 @@ export const speakerItems = [
     github: "https://github.com/yusukebe",
     twitter: "https://twitter.com/yusukebe",
     website: "",
+  },
+  {
+    company: "Cloudflare, inc.",
+    name: "ゴリラ",
+    nameEn: "Gorilla",
+    introduction: `仕事: エンジニア&会社経営
+好きなもの: Rust, Go, TypeScript, Deno, Vim, Wasm, Docker, k8s`,
+    introductionEn: "",
+    image: "/images/speaker_08.jpg",
+    github: "https://github.com/skanehira",
+    twitter: "https://twitter.com/gorilla0513",
+    website: "",
   }
 ];

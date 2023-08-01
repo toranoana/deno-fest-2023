@@ -47,8 +47,8 @@ export function SpeakerItem({
           </div>
         </div>
         <div>
-          {introduction && <p className="text-sm mt-3">{introduction}</p>}
-          {introductionEn && <p className="text-xs mt-2">{introductionEn}</p>}
+          {introduction && <p className="text-sm mt-3 break-words whitespace-pre-wrap">{introduction}</p>}
+          {introductionEn && <p className="text-xs mt-2 break-words whitespace-pre-wrap">{introductionEn}</p>}
         </div>
       </div>
     </div>
