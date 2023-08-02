@@ -28,7 +28,7 @@ export default function Home() {
     <>
       <Head>
         <meta property="og:title" content="Deno Fest ディノフェス - presented by toranoana.deno" />
-        <meta property="og:description" content="Deno のお祭り　Deno Fest ディノフェス　2023.10.20オンライン、オンラインで開催！！" />
+        <meta property="og:description" content="Deno のお祭り　Deno Fest ディノフェス　2023.10.20オフライン、オンラインで開催！！" />
         <meta property="og:url" content="https://deno-fest-2023.deno.dev/" />
         <meta property="og:site_name" content="Deno Fest ディノフェス - presented by toranoana.deno" />
         <meta property="og:locale" content="ja_JP" />
@@ -38,7 +38,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="" />
         <meta name="twitter:title" content="Deno Fest ディノフェス - presented by toranoana.deno" />
-        <meta name="twitter:description" content="Deno のお祭り　Deno Fest ディノフェス　2023.10.20オンライン、オンラインで開催！！" />
+        <meta name="twitter:description" content="Deno のお祭り　Deno Fest ディノフェス　2023.10.20オフライン、オンラインで開催！！" />
         <meta name="twitter:image" content="/images/ogp-01.png" />
 
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -205,7 +205,7 @@ export default function Home() {
                       </span>
                     </div>
                     <p className="mt-3 font-bold text-sm">
-                      ＼　オンライン、オンラインで開催！！ ／
+                      ＼　オフライン、オンラインで開催！！ ／
                     </p>
                     <LinkButton
                       href="https://yumenosora.connpass.com/event/290309/"
