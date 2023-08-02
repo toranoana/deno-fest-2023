@@ -36,7 +36,7 @@ export default function Home() {
         <meta property="og:image" content="/images/ogp-01.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="" />
+        <meta name="twitter:site" content="@toranoana_lab" />
         <meta name="twitter:title" content="Deno Fest ディノフェス - presented by toranoana.deno" />
         <meta name="twitter:description" content="Deno のお祭り　Deno Fest ディノフェス　2023.10.20オフライン、オンラインで開催！！" />
         <meta name="twitter:image" content="/images/ogp-01.png" />
