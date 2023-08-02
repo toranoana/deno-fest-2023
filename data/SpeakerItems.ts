@@ -90,7 +90,7 @@ export const speakerItems = [
     website: "",
   },
   {
-    company: "株式会社テックリード",
+    company: "TechLead Co.,Ltd.",
     name: "ゴリラ",
     nameEn: "Gorilla",
     introduction: `仕事: エンジニア&会社経営
