@@ -90,7 +90,7 @@ export const speakerItems = [
     website: "",
   },
   {
-    company: "Cloudflare, inc.",
+    company: "株式会社テックリード",
     name: "ゴリラ",
     nameEn: "Gorilla",
     introduction: `仕事: エンジニア&会社経営
