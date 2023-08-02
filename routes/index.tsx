@@ -33,13 +33,13 @@ export default function Home() {
         <meta property="og:site_name" content="Deno Fest ディノフェス - presented by toranoana.deno" />
         <meta property="og:locale" content="ja_JP" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/images/ogp.png" />
+        <meta property="og:image" content="/images/ogp-01.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="" />
         <meta name="twitter:title" content="Deno Fest ディノフェス - presented by toranoana.deno" />
         <meta name="twitter:description" content="Deno のお祭り　Deno Fest ディノフェス　2023.10.20オンライン、オンラインで開催！！" />
-        <meta name="twitter:image" content="/images/ogp.png" />
+        <meta name="twitter:image" content="/images/ogp-01.png" />
 
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
         <link
