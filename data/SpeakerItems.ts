@@ -5,7 +5,7 @@ export const speakerItems = [
     nameEn: "Ryan Dahl",
     introduction: "Node と Deno 作者。",
     introductionEn: "The creator of Node and Deno.",
-    image: "/images/guest_01.jpeg",
+    image: "/images/guest_01.png",
     github: "",
     twitter: "https://twitter.com/ry",
     website: "https://tinyclouds.org/",

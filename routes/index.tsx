@@ -166,7 +166,7 @@ export default function Home() {
               <div className="flex flex-col justify-center -m-2 md:flex-row">
                 <div className="p-3 md:w-1/3">
                   <img
-                    src="/images/guest_01.jpeg"
+                    src="/images/guest_01.png"
                     className="max-w-full rounded-2xl mb-3"
                     alt="the fresh logo: a sliced lemon dripping with juice"
                     width="500"
