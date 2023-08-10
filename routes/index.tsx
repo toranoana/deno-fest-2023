@@ -251,7 +251,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="max-w-5xl mx-auto px-4 py-16 text-gray-600">
+            <div className="max-w-5xl mx-auto px-4 pt-16 text-gray-600">
               <h2 className="font-extrabold text-3xl leading-none text-center mb-8">
                 Corona measures<br />
                 <span className="text-sm">コロナ対策</span>
@@ -271,9 +271,25 @@ export default function Home() {
                 </li>
               </ul>
             </div>
+            <div className="max-w-5xl mx-auto px-4 pt-8 pb-16  text-gray-600">
+              <ul className="text-sm list-disc max-w-3xl mx-auto pl-4">
+                <li>
+                  In the event of unavoidable circumstances, such as the spread of infection, the offline event may be cancelled. Thank you for your understanding.
+                </li>
+                <li>
+                  Please refrain from participating if you have a fever (37.5 degrees Celsius or higher) or cold.
+                </li>
+                <li>
+                  Please wear a mask in the venue. Please refrain from loud conversations.
+                </li>
+                <li>
+                  Disinfectant solution will be available at the entrance of the venue. Please disinfect your hands upon entering the venue.
+                </li>
+              </ul>
+            </div>
           </div>
           <div>
-            <div className="max-w-5xl mx-auto px-4 py-16 text-gray-600">
+            <div className="max-w-5xl mx-auto px-4 pt-16 text-gray-600">
               <h2 className="font-extrabold text-3xl leading-none text-center mb-8">
                 Notice and Code of Conduct<br />
                 <span className="text-sm">注意事項 および 行動規範</span>
@@ -293,6 +309,25 @@ export default function Home() {
                 </li>
                 <li>
                   イベントの様子をブログや各種メディアにて発信するため、開催中に写真撮影をする場合がございます。ご了承お願い致します。
+                </li>
+              </ul>
+            </div>
+            <div className="max-w-5xl mx-auto px-4 pt-8 pb-16 text-gray-600">
+              <ul className="text-sm list-disc max-w-3xl mx-auto pl-4">
+                <li>
+                  Sexual harassment, power harassment, stalking, or other disruptive behavior toward others is prohibited.
+                </li>
+                <li>
+                  Selling, soliciting, or mediating in network businesses, etc., regardless of the subject matter. Religious or political activities are also prohibited.
+                </li>
+                <li>
+                  Any other behavior that deviates from the purpose or objectives of the event or is deemed to be inconsistent with the original intent of the event will result in the participant being asked to leave the venue and not being allowed to participate in future events.
+                </li>
+                <li>
+                  Participation in this event is limited to those who have pre-registered.
+                </li>
+                <li>
+                  Photos may be taken during the event for the purpose of disseminating information about the event on blogs and various media. We ask for your understanding.
                 </li>
               </ul>
             </div>
