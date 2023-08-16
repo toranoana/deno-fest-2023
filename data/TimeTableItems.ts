@@ -144,10 +144,13 @@ export const timeTableItems = [
   },
   {
     time: "17:30 ~ 17:40",
-    title: "セッション 13：coming soon",
-    description: "",
-    speakerName: "",
-    speakerImage: "",
+    title: "セッション 13：Contributing to Deno is fun!",
+    description: `Deno 本体のコードは Rust と JavaScript (TypeScript) によって構成されています。JavaScript を書くことができれば誰でもコントリビューターになれます！このセッションでは Deno 内部の JavaScript コードがどのように扱われているかをお話します。一緒にコントリビューターになりましょう！
+- V8 スナップショット
+- deno_core のブートストラップコード
+- コントリビュートの具体例`,
+    speakerName: "Kenta Moriuchi (petamoriken) - 森内 建太",
+    speakerImage: "/images/speaker_09.jpg",
   },
   {
     time: "17:40 ~ 17:50",
