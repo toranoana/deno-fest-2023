@@ -100,5 +100,16 @@ export const speakerItems = [
     github: "https://github.com/skanehira",
     twitter: "https://twitter.com/gorilla0513",
     website: "",
+  },
+  {
+    company: "ピクシブ株式会社",
+    name: "森内 建太",
+    nameEn: "Kenta Moriuchi (petamoriken)",
+    introduction: `福岡在住の Web エンジニア。趣味で ECMAScript や Web 標準の仕様を追っていて、たまに Zenn に記事を公開しています。Float16Array の polyfill 作者。`,
+    introductionEn: "",
+    image: "/images/speaker_09.jpg",
+    github: "https://github.com/petamoriken",
+    twitter: "https://twitter.com/petamoriken",
+    website: "https://moriken.dev",
   }
 ];
