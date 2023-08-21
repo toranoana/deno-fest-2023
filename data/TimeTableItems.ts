@@ -107,7 +107,7 @@ export const timeTableItems = [
   },
   {
     time: "16:25 ~ 16:40",
-    title: "セッション 10：Civic Tech by Open ESM in Pure JavaScript",
+    title: "セッション 9：Civic Tech by Open ESM in Pure JavaScript",
     description:
       "36年、100のプログラミング言語を経験して辿り着いたベスト、それが ESM in Pure JavaScript on Deno。シビックテック集団、Code for FUKUIのESモジュールトップ5と共にその魅力をご紹介します。",
     speakerName: "Taisuke Fukuno - 福野泰介",
@@ -122,7 +122,7 @@ export const timeTableItems = [
   },
   {
     time: "16:50 ~ 17:00",
-    title: "セッション 11：Deno KV でログを永続化する",
+    title: "セッション 10：Deno KV でログを永続化する",
     description:
       "Deno KV ハッカソンに提出して技術賞を頂いたログ永続化ライブラリ&デモアプリの設計や制作過程で得られた知見を紹介します。",
     speakerName: "Shun Ueda (Chiezo) - 上田 駿",
@@ -130,14 +130,14 @@ export const timeTableItems = [
   },
   {
     time: "17:00 ~ 17:10",
-    title: "セッション 12：Deno KV で投稿系サイトを作ってみた話",
+    title: "セッション 11：Deno KV で投稿系サイトを作ってみた話",
     description: "Deno Deploy で KV が使えるようになったので、\"オンライン万華鏡\" の投稿サイトを作ってみました。その中で感じたことなどをお話しします。",
     speakerName: "jinjor - ジンジャー",
     speakerImage: "/images/speaker_06.jpg",
   },
   {
     time: "17:10 ~ 17:20",
-    title: "セッション 13：Contributing to Deno is fun!",
+    title: "セッション 12：Contributing to Deno is fun!",
     description: `Deno 本体のコードは Rust と JavaScript (TypeScript) によって構成されています。JavaScript を書くことができれば誰でもコントリビューターになれます！このセッションでは Deno 内部の JavaScript コードがどのように扱われているかをお話します。一緒にコントリビューターになりましょう！
 - V8 スナップショット
 - deno_core のブートストラップコード
@@ -154,7 +154,7 @@ export const timeTableItems = [
   },
   {
     time: "17:30 ~ 17:40",
-    title: "セッション 14：Software DesignでDenoの短期連載したお話し",
+    title: "セッション 13：Software DesignでDenoの短期連載したお話し",
     description: `Software DesignでDenoの短期連載をしたので、それについて主に以下のことを話します。
 - 連載を担当したきっかけ
 - 連載で気をつけた点と学んだこと
@@ -164,21 +164,21 @@ export const timeTableItems = [
   },
   {
     time: "17:40 ~ 17:50",
-    title: "セッション 15：coming soon",
+    title: "セッション 14：coming soon",
     description: "",
     speakerName: "",
     speakerImage: "",
   },
   {
     time: "17:50 ~ 18:00",
-    title: "セッション 16：coming soon",
+    title: "セッション 15：coming soon",
     description: "",
     speakerName: "",
     speakerImage: "",
   },
   {
     time: "18:00 ~ 18:15",
-    title: "セッション 17：開発チームに聞こうのコーナー2",
+    title: "セッション 16：開発チームに聞こうのコーナー2",
     description: "",
     speakerName: "Deno 開発チーム",
     speakerImage: "/images/img_deno.png",
