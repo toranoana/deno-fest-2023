@@ -69,8 +69,8 @@ export const speakerItems = [
   },
   {
     company: "株式会社ナレッジワーク",
-    name: "ジンジャー",
-    nameEn: "Jinjor",
+    name: "鳥居 陽介",
+    nameEn: "Yosuke Torii",
     introduction: "プログラミングと音楽が好き。得意領域はフロントエンド。",
     introductionEn: "",
     image: "/images/speaker_06.jpg",

@@ -132,7 +132,7 @@ export const timeTableItems = [
     time: "17:00 ~ 17:10",
     title: "セッション 11：Deno KV で投稿系サイトを作ってみた話",
     description: "Deno Deploy で KV が使えるようになったので、\"オンライン万華鏡\" の投稿サイトを作ってみました。その中で感じたことなどをお話しします。",
-    speakerName: "jinjor - ジンジャー",
+    speakerName: "Yosuke Torii - 鳥居 陽介",
     speakerImage: "/images/speaker_06.jpg",
   },
   {
