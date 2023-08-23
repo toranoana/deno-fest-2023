@@ -22,7 +22,7 @@ export const speakerItems = [
     website: "",
   },
   {
-    company: "Supabase",
+    company: "Supabase Inc.",
     name: "タイラー",
     nameEn: "Tyler",
     introduction: "SupabaseでDevRelとFlutterのSDKを開発しているタイラーです。",
