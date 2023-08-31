@@ -339,14 +339,17 @@ export default function Home() {
                 <span className="text-sm">協賛</span>
               </h2>
               <div className="flex items-center justify-center gap-6 md:gap-12">
-                <a href="https://yumenosora.co.jp/tora-lab" target="_blank" className="hover:opacity-70 ease-linear duration-150">
-                  <img
-                    src="/images/logo_lab.png"
-                    width="1129"
-                    height="361"
-                    className="w-auto h-12 md:h-20"
-                  />
-                </a>
+                <div className="text-center">
+                  <a href="https://yumenosora.co.jp/tora-lab" target="_blank" className="hover:opacity-70 ease-linear duration-150">
+                    <img
+                      src="/images/logo_lab.png"
+                      width="1129"
+                      height="361"
+                      className="w-auto h-10 md:h-14"
+                    />
+                  </a>
+                  <a className="mt-2 inline-block font-bold hover:opacity-70" href="https://yumenosora.co.jp/tora-lab/recruit#toralab-jobs" target="_blank">エンジニア募集中</a>
+                </div>
                 <a href="https://deno.land/" target="_blank" className="hover:opacity-70 ease-linear duration-150">
                   <img
                     src="/images/logo_deno.png"
