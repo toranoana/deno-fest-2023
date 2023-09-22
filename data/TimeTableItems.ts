@@ -10,8 +10,8 @@ export const timeTableItems = [
     time: "13:00 ~ 13:10",
     title: "オープニング",
     description: "",
-    speakerName: "",
-    speakerImage: "",
+    speakerName: "Junichi Noda - 野田 純一",
+    speakerImage: "/images/guest_02.png",
   },
   {
     time: "13:10 ~ 13:45",
@@ -44,10 +44,10 @@ export const timeTableItems = [
   },
   {
     time: "14:35 ~ 14:50",
-    title: "セッション 3：coming soon",
+    title: "セッション 3：TBD",
     description: "",
-    speakerName: "",
-    speakerImage: "",
+    speakerName: "Luca Casonato - ルカ・カソナート ",
+    speakerImage: "/images/speaker_12.jpg",
   },
   {
     time: "14:50 ~ 15:00",
@@ -66,10 +66,10 @@ export const timeTableItems = [
   },
   {
     time: "15:15 ~ 15:30",
-    title: "セッション 5：coming soon",
+    title: "セッション 5：TBD",
     description: "",
-    speakerName: "",
-    speakerImage: "",
+    speakerName: "Matt Mastracci - マット・マストラッチ",
+    speakerImage: "/images/speaker_13.jpg",
   },
   {
     time: "15:30 ~ 15:45",
@@ -89,7 +89,8 @@ export const timeTableItems = [
   {
     time: "15:55 ~ 16:10",
     title: "セッション 7：The power of Web-standards",
-    description: `Honoは外部ライブラリに依存せず、WinterCGでディスカッションされている「Web-standard APIs」のみを使ったWebフレームワークです。本トークでは「Web-standard APIs」に焦点をあてつつ以下について話します。
+    description:
+      `Honoは外部ライブラリに依存せず、WinterCGでディスカッションされている「Web-standard APIs」のみを使ったWebフレームワークです。本トークでは「Web-standard APIs」に焦点をあてつつ以下について話します。
 - Hono内で使っているWeb-standard APIs
 - HonoのDeno対応
 - どのランタイムでも動かす
@@ -100,10 +101,11 @@ export const timeTableItems = [
   },
   {
     time: "16:10 ~ 16:25",
-    title: "セッション 8：coming soon",
-    description: "",
-    speakerName: "",
-    speakerImage: "",
+    title: "セッション 8：The state of web frameworks in Deno",
+    description:
+      "In this talk, we'll examine the options developers have for web frameworks in Deno for 2023. We'll cover what's supported, what isn't, and highlight a few of the most promising frameworks to start your next project.",
+    speakerName: "Kevin Whinnery - ケヴィン・ウィナリー",
+    speakerImage: "/images/speaker_10.jpg",
   },
   {
     time: "16:25 ~ 16:40",
@@ -131,14 +133,16 @@ export const timeTableItems = [
   {
     time: "17:00 ~ 17:10",
     title: "セッション 11：Deno KV で投稿系サイトを作ってみた話",
-    description: "Deno Deploy で KV が使えるようになったので、\"オンライン万華鏡\" の投稿サイトを作ってみました。その中で感じたことなどをお話しします。",
+    description:
+      'Deno Deploy で KV が使えるようになったので、"オンライン万華鏡" の投稿サイトを作ってみました。その中で感じたことなどをお話しします。',
     speakerName: "Yosuke Torii - 鳥居 陽介",
     speakerImage: "/images/speaker_06.jpg",
   },
   {
     time: "17:10 ~ 17:20",
     title: "セッション 12：Contributing to Deno is fun!",
-    description: `Deno 本体のコードは Rust と JavaScript (TypeScript) によって構成されています。JavaScript を書くことができれば誰でもコントリビューターになれます！このセッションでは Deno 内部の JavaScript コードがどのように扱われているかをお話します。一緒にコントリビューターになりましょう！
+    description:
+      `Deno 本体のコードは Rust と JavaScript (TypeScript) によって構成されています。JavaScript を書くことができれば誰でもコントリビューターになれます！このセッションでは Deno 内部の JavaScript コードがどのように扱われているかをお話します。一緒にコントリビューターになりましょう！
 - V8 スナップショット
 - deno_core のブートストラップコード
 - コントリビュートの具体例`,
@@ -155,7 +159,8 @@ export const timeTableItems = [
   {
     time: "17:30 ~ 17:40",
     title: "セッション 13：Software DesignでDenoの短期連載したお話し",
-    description: `Software DesignでDenoの短期連載をしたので、それについて主に以下のことを話します。
+    description:
+      `Software DesignでDenoの短期連載をしたので、それについて主に以下のことを話します。
 - 連載を担当したきっかけ
 - 連載で気をつけた点と学んだこと
 - 連載した感想`,
@@ -164,17 +169,21 @@ export const timeTableItems = [
   },
   {
     time: "17:40 ~ 17:50",
-    title: "セッション 14：coming soon",
-    description: "",
-    speakerName: "",
-    speakerImage: "",
+    title: "セッション 14： Blazing fast FFI in Deno",
+    description:
+      "Technical dive into the FFI (Foreign Function Interface) API and its architecture in Deno. We will try to understand the API, its implementation in Deno, what makes it fast and how.",
+    speakerName: "Divy Srivastava - ディヴィー・スリヴァスタヴァ",
+    speakerImage: "/images/speaker_11.jpg",
   },
   {
     time: "17:50 ~ 18:00",
-    title: "セッション 15：coming soon",
-    description: "",
-    speakerName: "",
-    speakerImage: "",
+    title: "セッション 15：FreshでちゃんとWebアプリを作ってみる",
+    description: `
+以前toranoana.denoで「<a style="text-decoration: underline; color: #2563eb;" target="_blank" href="https://speakerdeck.com/toranoana/toranoana-dot-deno-number-11-freshdepu-tong-nowebapuriwozuo-ru">Freshで普通のWebアプリを作ってみる</a>」という発表をしました。
+上記発表では簡略化のため、セッション管理が暗号化したCookieだったり、バックエンドにDBが存在しなかったりしました。
+今回の発表では、更に一歩踏み込んで、さらに実務よりのアプリをFreshで作ってみて紹介したいと思います。`,
+    speakerName: "Yoshiaki Fujiwara - 藤原 佳顕",
+    speakerImage: "/images/speaker_14.png",
   },
   {
     time: "18:00 ~ 18:15",
@@ -197,5 +206,4 @@ export const timeTableItems = [
     speakerName: "",
     speakerImage: "",
   },
-  // 他のイベントデータを追加
 ];
