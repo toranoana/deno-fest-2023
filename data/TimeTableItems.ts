@@ -169,7 +169,7 @@ export const timeTableItems = [
   },
   {
     time: "17:40 ~ 17:50",
-    title: "セッション 14：",
+    title: "セッション 14： Blazing fast FFI in Deno",
     description:
       "Technical dive into the FFI (Foreign Function Interface) API and its architecture in Deno. We will try to understand the API, its implementation in Deno, what makes it fast and how.",
     speakerName: "Divy Srivastava - ディヴィー・スリヴァスタヴァ",
