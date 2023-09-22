@@ -182,7 +182,7 @@ export const timeTableItems = [
 以前toranoana.denoで「<a style="text-decoration: underline; color: #2563eb;" target="_blank" href="https://speakerdeck.com/toranoana/toranoana-dot-deno-number-11-freshdepu-tong-nowebapuriwozuo-ru">Freshで普通のWebアプリを作ってみる</a>」という発表をしました。
 上記発表では簡略化のため、セッション管理が暗号化したCookieだったり、バックエンドにDBが存在しなかったりしました。
 今回の発表では、更に一歩踏み込んで、さらに実務よりのアプリをFreshで作ってみて紹介したいと思います。`,
-    speakerName: "yoshiaki fujiwara - 藤原 佳顕",
+    speakerName: "Yoshiaki Fujiwara - 藤原 佳顕",
     speakerImage: "/images/speaker_14.png",
   },
   {

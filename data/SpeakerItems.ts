@@ -163,7 +163,7 @@ export const speakerItems = [
   {
     company: "虎の穴ラボ株式会社",
     name: "藤原 佳顕",
-    nameEn: "yoshiaki fujiwara",
+    nameEn: "Yoshiaki Fujiwara",
     introduction:
       "虎の穴ラボエンジニアの藤原です。実はtoranoana.deno発起人だったりします。普段はRailsとかTypeScriptとか使ってます。",
     introductionEn: "",
