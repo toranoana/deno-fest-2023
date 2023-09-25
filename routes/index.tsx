@@ -264,13 +264,13 @@ export default function Home() {
                 </p>
                 <a className="underline hover:no-underline" target="_blank" href="https://maps.app.goo.gl/HCNbiVEi8dzGgbiB6">Google mapでみる</a>
               </div>
-              <div className="mt-12">
+              {/* <div className="mt-12">
                 <h2 className="font-extrabold text-xl leading-none text-center mb-6">
                   Way<br />
                   <span className="text-xs">行き方</span>
                 </h2>
                 <iframe className="mx-auto rounded-lg h-[200px] md:h-[400px] max-w-full" width="700" height="400" src="https://www.youtube.com/embed/Hiq834lITSs?si=4s5CTJ3iXK3vdLM5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
+              </div> */}
             </div>
           </div>
           <div>
