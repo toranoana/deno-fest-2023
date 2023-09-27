@@ -269,7 +269,7 @@ export default function Home() {
                   Way<br />
                   <span className="text-xs">行き方</span>
                 </h2>
-                <iframe className="mx-auto rounded-lg h-[200px] md:h-[400px] max-w-full" width="700" height="400" src="https://www.youtube.com/embed/Hiq834lITSs?si=4s5CTJ3iXK3vdLM5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className="mx-auto rounded-lg h-[200px] md:h-[400px] max-w-full" width="700" height="400" src="https://www.youtube.com/embed/tnn3D8kPP_o?si=vakO61fkLJxuGYza" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div> */}
             </div>
           </div>
