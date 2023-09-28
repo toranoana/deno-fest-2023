@@ -10,7 +10,7 @@ export const timeTableItems = [
     time: "13:00 ~ 13:10",
     title: "オープニング",
     description: "",
-    speakerName: "協賛スポンサー 虎の穴ラボ代表取締役 Junichi Noda - 野田 純一",
+    speakerName: "スポンサー 虎の穴ラボ代表取締役 Junichi Noda - 野田 純一",
     speakerImage: "/images/guest_02.png",
   },
   {
