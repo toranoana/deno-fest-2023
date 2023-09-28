@@ -44,8 +44,8 @@ export const timeTableItems = [
   },
   {
     time: "14:35 ~ 14:50",
-    title: "セッション 3：TBD",
-    description: "",
+    title: "セッション 3：The state of Fresh",
+    description: "TBD",
     speakerName: "Luca Casonato - ルカ・カソナート ",
     speakerImage: "/images/speaker_12.jpg",
   },
@@ -67,7 +67,7 @@ export const timeTableItems = [
   {
     time: "15:15 ~ 15:30",
     title: "セッション 5：TBD",
-    description: "",
+    description: "TBD",
     speakerName: "Matt Mastracci - マット・マストラッチ",
     speakerImage: "/images/speaker_13.jpg",
   },
