@@ -100,13 +100,13 @@ export default function Home() {
                 />
               </h1>
               <div className="p-4 rounded-xl inline-block bg-white shadow sm:px-8 md:px-12 mt-12">
-                <div className="mb-3 flex flex-col sm:flex-row sm:gap-4">
+                <div className="mb-3 flex flex-col items-center sm:flex-row sm:gap-4">
                   <span className="inline-block text-2xl font-extrabold">
                     2023.10.20 13:00 start
                   </span>
-                  <span className="inline-block text-2xl font-extrabold">
+                  <a href="#access" className="inline-block text-2xl font-extrabold underline hover:no-underline">
                     @TOKYO Akihabara
-                  </span>
+                  </a>
                 </div>
                 <p className="mt-4 font-bold">
                   ＼　オフライン、オンラインで開催！！ ／
@@ -200,9 +200,9 @@ export default function Home() {
                       <span className="inline-block text-lg font-extrabold">
                         2023.10.20 13:00 start
                       </span>
-                      <span className="inline-block text-lg font-extrabold">
+                      <a href="" className="inline-block text-lg font-extrabold underline hover:no-underline">
                         @TOKYO Akihabara
-                      </span>
+                      </a>
                     </div>
                     <p className="mt-3 font-bold text-sm">
                       ＼　オフライン、オンラインで開催！！ ／
@@ -248,6 +248,29 @@ export default function Home() {
                 ))}
                 {/* ここまでSpeakerItemコンポーネントの繰り返し表示 */}
               </div>
+            </div>
+          </div>
+          <div id="access">
+            <div className="max-w-5xl mx-auto px-4 py-16">
+              <h2 className="font-extrabold text-3xl leading-none text-center mb-8">
+                Access<br />
+                <span className="text-sm">アクセス</span>
+              </h2>
+              <iframe className="h-[200px] md:h-[350px] rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2365.385951915328!2d139.7697966022491!3d35.69988444635659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c1c52026005%3A0x4e55145da9c5a233!2z44CSMTAxLTAwMjEg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65aSW56We55Sw77yR5LiB55uu77yX4oiS77yV!5e0!3m2!1sja!2sjp!4v1695640475761!5m2!1sja!2sjp" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div className="text-sm mt-4 flex flex-col sm:gap-2 sm:flex-row justify-between">
+                <p>
+                  東京都千代田区外神田1-7-5　フロントプレイス秋葉原<br />
+                  TKPガーデンシティPREMIUM秋葉原 3B
+                </p>
+                <a className="underline hover:no-underline" target="_blank" href="https://maps.app.goo.gl/HCNbiVEi8dzGgbiB6">Google mapでみる</a>
+              </div>
+              {/* <div className="mt-12">
+                <h2 className="font-extrabold text-xl leading-none text-center mb-6">
+                  Way<br />
+                  <span className="text-xs">秋葉原駅からの道順</span>
+                </h2>
+                <iframe className="mx-auto rounded-lg h-[200px] md:h-[400px] max-w-full" width="700" height="400" src="https://www.youtube.com/embed/tnn3D8kPP_o?si=vakO61fkLJxuGYza" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div> */}
             </div>
           </div>
           <div>
