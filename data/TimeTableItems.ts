@@ -10,7 +10,7 @@ export const timeTableItems = [
     time: "13:00 ~ 13:10",
     title: "オープニング",
     description: "",
-    speakerName: "Junichi Noda - 野田 純一",
+    speakerName: "スポンサー 虎の穴ラボ株式会社 代表取締役 Junichi Noda - 野田 純一",
     speakerImage: "/images/guest_02.png",
   },
   {
@@ -44,8 +44,8 @@ export const timeTableItems = [
   },
   {
     time: "14:35 ~ 14:50",
-    title: "セッション 3：TBD",
-    description: "",
+    title: "セッション 3：The state of Fresh",
+    description: "TBD",
     speakerName: "Luca Casonato - ルカ・カソナート ",
     speakerImage: "/images/speaker_12.jpg",
   },
@@ -67,7 +67,7 @@ export const timeTableItems = [
   {
     time: "15:15 ~ 15:30",
     title: "セッション 5：TBD",
-    description: "",
+    description: "TBD",
     speakerName: "Matt Mastracci - マット・マストラッチ",
     speakerImage: "/images/speaker_13.jpg",
   },
@@ -87,7 +87,12 @@ export const timeTableItems = [
     speakerImage: "",
   },
   {
-    time: "15:55 ~ 16:10",
+    time: "15:55 ~ 16:00",
+    title: "お知らせ",
+    description: "協賛スポンサー 虎の穴ラボからのお知らせ",
+  },
+  {
+    time: "16:00 ~ 16:15",
     title: "セッション 7：The power of Web-standards",
     description:
       `Honoは外部ライブラリに依存せず、WinterCGでディスカッションされている「Web-standard APIs」のみを使ったWebフレームワークです。本トークでは「Web-standard APIs」に焦点をあてつつ以下について話します。
@@ -100,7 +105,7 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_07.jpg",
   },
   {
-    time: "16:10 ~ 16:25",
+    time: "16:15 ~ 16:30",
     title: "セッション 8：The state of web frameworks in Deno",
     description:
       "In this talk, we'll examine the options developers have for web frameworks in Deno for 2023. We'll cover what's supported, what isn't, and highlight a few of the most promising frameworks to start your next project.",
@@ -108,7 +113,7 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_10.jpg",
   },
   {
-    time: "16:25 ~ 16:40",
+    time: "16:30 ~ 16:45",
     title: "セッション 9：Civic Tech by Open ESM in Pure JavaScript",
     description:
       "36年、100のプログラミング言語を経験して辿り着いたベスト、それが ESM in Pure JavaScript on Deno。シビックテック集団、Code for FUKUIのESモジュールトップ5と共にその魅力をご紹介します。",
@@ -116,14 +121,14 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_03.jpeg",
   },
   {
-    time: "16:40 ~ 16:50",
+    time: "16:45 ~ 16:55",
     title: "休憩",
     description: "",
     speakerName: "",
     speakerImage: "",
   },
   {
-    time: "16:50 ~ 17:00",
+    time: "16:55 ~ 17:05",
     title: "セッション 10：Deno KV でログを永続化する",
     description:
       "Deno KV ハッカソンに提出して技術賞を頂いたログ永続化ライブラリ&デモアプリの設計や制作過程で得られた知見を紹介します。",
@@ -131,7 +136,7 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_05.png",
   },
   {
-    time: "17:00 ~ 17:10",
+    time: "17:05 ~ 17:15",
     title: "セッション 11：Deno KV で投稿系サイトを作ってみた話",
     description:
       'Deno Deploy で KV が使えるようになったので、"オンライン万華鏡" の投稿サイトを作ってみました。その中で感じたことなどをお話しします。',
@@ -139,7 +144,7 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_06.jpg",
   },
   {
-    time: "17:10 ~ 17:20",
+    time: "17:15 ~ 17:25",
     title: "セッション 12：Contributing to Deno is fun!",
     description:
       `Deno 本体のコードは Rust と JavaScript (TypeScript) によって構成されています。JavaScript を書くことができれば誰でもコントリビューターになれます！このセッションでは Deno 内部の JavaScript コードがどのように扱われているかをお話します。一緒にコントリビューターになりましょう！
@@ -150,14 +155,14 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_09.jpg",
   },
   {
-    time: "17:20 ~ 17:30",
+    time: "17:25 ~ 17:35",
     title: "休憩",
     description: "",
     speakerName: "",
     speakerImage: "",
   },
   {
-    time: "17:30 ~ 17:40",
+    time: "17:35 ~ 17:45",
     title: "セッション 13：Software DesignでDenoの短期連載したお話し",
     description:
       `Software DesignでDenoの短期連載をしたので、それについて主に以下のことを話します。
@@ -168,7 +173,7 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_08.jpg",
   },
   {
-    time: "17:40 ~ 17:50",
+    time: "17:45 ~ 18:00",
     title: "セッション 14： Blazing fast FFI in Deno",
     description:
       "Technical dive into the FFI (Foreign Function Interface) API and its architecture in Deno. We will try to understand the API, its implementation in Deno, what makes it fast and how.",
@@ -176,7 +181,7 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_11.jpg",
   },
   {
-    time: "17:50 ~ 18:00",
+    time: "18:00 ~ 18:10",
     title: "セッション 15：FreshでちゃんとWebアプリを作ってみる",
     description: `
 以前toranoana.denoで「<a style="text-decoration: underline; color: #2563eb;" target="_blank" href="https://speakerdeck.com/toranoana/toranoana-dot-deno-number-11-freshdepu-tong-nowebapuriwozuo-ru">Freshで普通のWebアプリを作ってみる</a>」という発表をしました。
@@ -186,22 +191,22 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_14.png",
   },
   {
-    time: "18:00 ~ 18:15",
+    time: "18:10 ~ 18:25",
     title: "セッション 16：開発チームに聞こうのコーナー2",
     description: "",
     speakerName: "Deno 開発チーム",
     speakerImage: "/images/img_deno.png",
   },
   {
-    time: "18:25 ~ 19:25",
-    title: "懇親会",
+    time: "18:25 ~ 18:30",
+    title: "クロージング",
     description: "",
     speakerName: "",
     speakerImage: "",
   },
   {
-    time: "19:25 ~ 19:35",
-    title: "クロージング",
+    time: "18:45 ~ 19:45",
+    title: "懇親会",
     description: "",
     speakerName: "",
     speakerImage: "",
