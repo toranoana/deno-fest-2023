@@ -66,8 +66,8 @@ export const timeTableItems = [
   },
   {
     time: "15:15 ~ 15:30",
-    title: "セッション 5：TBD",
-    description: "TBD",
+    title: "セッション 5：How Deno's webserver works",
+    description: "Deno.serve is a new API for 2023 that modernizes the webserver stack in Deno and provides a speedy experience with a native, web-standards-friendly Javascript API. This talk focused on the history of HTTP in Deno, how it works, and where we're thinking of going",
     speakerName: "Matt Mastracci - マット・マストラッチ",
     speakerImage: "/images/speaker_13.jpg",
   },
