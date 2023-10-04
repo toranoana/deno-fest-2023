@@ -264,13 +264,13 @@ export default function Home() {
                 </p>
                 <a className="underline hover:no-underline" target="_blank" href="https://maps.app.goo.gl/HCNbiVEi8dzGgbiB6">Google mapでみる</a>
               </div>
-              {/* <div className="mt-12">
+              <div className="mt-12">
                 <h2 className="font-extrabold text-xl leading-none text-center mb-6">
-                  Way<br />
+                  Directions from Akihabara Station<br />
                   <span className="text-xs">秋葉原駅からの道順</span>
                 </h2>
-                <iframe className="mx-auto rounded-lg h-[200px] md:h-[400px] max-w-full" width="700" height="400" src="https://www.youtube.com/embed/tnn3D8kPP_o?si=vakO61fkLJxuGYza" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div> */}
+                <iframe className="mx-auto rounded-lg h-[200px] md:h-[400px] max-w-full" width="700" height="400" src="https://www.youtube.com/embed/bozfqMH6cmo?si=vi0PUgBrSxdywsbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
           <div>
