@@ -65,14 +65,11 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_04.png",
   },
   {
-    time: "15:15 ~ 15:30",
-    title: "セッション 5：How Deno's webserver works",
-    description: "Deno.serve is a new API for 2023 that modernizes the webserver stack in Deno and provides a speedy experience with a native, web-standards-friendly Javascript API. This talk focused on the history of HTTP in Deno, how it works, and where we're thinking of going",
-    speakerName: "Matt Mastracci - マット・マストラッチ",
-    speakerImage: "/images/speaker_13.jpg",
+    time: "",
+    title: "セッション 5 中止",
   },
   {
-    time: "15:30 ~ 15:45",
+    time: "15:15 ~ 15:30",
     title: "セッション 6：金曜 DENO DE SHOW",
     description:
       "一人の技術者が仕事を進めるために必要だった、ヤクの毛刈りに関するおはなし。非同期処理を抽象的に扱うため、unknown 型の扱いを楽にするため、Worker メッセージを抽象的に扱うため、などなど、開発してきた数多のサードパーティモジュールの開発動機や使い方紹介など。",
@@ -80,7 +77,7 @@ export const timeTableItems = [
     speakerImage: "/images/speaker_02.png",
   },
   {
-    time: "15:45 ~ 15:55",
+    time: "15:30 ~ 15:55",
     title: "休憩",
     description: "",
     speakerName: "",
