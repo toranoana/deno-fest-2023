@@ -109,9 +109,6 @@ export default function Home() {
                     @TOKYO Akihabara
                   </a>
                 </div>
-                {/* <p className="mt-4 font-bold">
-                  ＼　オフライン、オンラインで開催！！ ／
-                </p> */}
                 <LinkButton
                   href="https://yumenosora.connpass.com/event/290309/"
                   target="_blank"
@@ -174,7 +171,6 @@ export default function Home() {
                     height="500"
                   />
                   <div>
-                    {/* <p className="font-bold text-sm">hogehoge株式会社</p> */}
                     <h3 className="font-extrabold text-xl">
                       ライアン・ダール<span className="text-base">氏</span>
                       <span className="text-sm font-normal ml-3">
@@ -205,9 +201,6 @@ export default function Home() {
                         @TOKYO Akihabara
                       </a>
                     </div>
-                    {/* <p className="mt-3 font-bold text-sm">
-                      ＼　オフライン、オンラインで開催！！ ／
-                    </p> */}
                     <LinkButton
                       href="https://yumenosora.connpass.com/event/290309/"
                       target="_blank"
@@ -257,7 +250,6 @@ export default function Home() {
                 Access<br />
                 <span className="text-sm">アクセス</span>
               </h2>
-              {/* <iframe className="h-[200px] md:h-[350px] rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2365.385951915328!2d139.7697966022491!3d35.69988444635659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c1c52026005%3A0x4e55145da9c5a233!2z44CSMTAxLTAwMjEg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65aSW56We55Sw77yR5LiB55uu77yX4oiS77yV!5e0!3m2!1sja!2sjp!4v1695640475761!5m2!1sja!2sjp" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
               <div className="text-sm mt-4 flex flex-col gap-2 items-center">
                 <p>
                   東京都千代田区外神田1-7-5　フロントプレイス秋葉原<br />
@@ -450,50 +442,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* <a
-          href="https://yumenosora.connpass.com/event/290309/"
-          target="_blank"
-          className="fixed bottom-3 left-3 bg-white flex items-center justify-center flex-col text-center w-24 h-24 rounded-full border text-xs text-pink-500 font-bold border-4 border-pink-500 ease-linear duration-150 shadow-lg md:w-28 md:h-28 md:text-sm lg:w-32 lg:h-32 lg:bottom-6 lg:left-6 lg:hover:bg-pink-50 lg:hover:bottom-8"
-        >
-          参加申し込み<br />をする<br />
-          （connpass）
-        </a> */}
-        {
-          /* <a href="https://www.youtube.com/watch?v=dAt-r7-Imgk" target="_blank" className="fixed bottom-3 left-3 bg-white flex items-center justify-center flex-col text-center w-24 h-24 rounded-full border text-xs text-pink-500 font-bold border-4 border-pink-500 ease-linear duration-150 shadow-lg md:w-28 md:h-28 md:text-sm lg:w-32 lg:h-32 lg:bottom-6 lg:left-6 lg:hover:bg-pink-50 lg:hover:bottom-8">
-          <img
-            src="/images/icon_live.svg"
-            width="49" height="24"
-            className="mx-auto mb-2"
-          />
-          オンライン<br />
-          配信中
-        </a> */
-        }
+        
         <footer className="max-w-5xl mx-auto px-4 py-16">
           <p className="text-center text-white">
             <small className="text-xs">©️ 2023 虎の穴ラボ株式会社</small>
           </p>
         </footer>
       </div>
-      {
-        /* <div className="p-4 mx-auto max-w-screen-md">
-        <img
-          src="/images/banner_movie.jpg"
-          className="w-32 h-32"
-          alt="the fresh logo: a sliced lemon dripping with juice"
-        />
-        <p className="my-6">
-          Welcome to `fresh`. Try updating this message in the
-          ./routes/index.tsx file, and refresh.
-        </p>
-        <Button>もっと見る</Button>
-        <div className="mx-auto max-w-screen-md p-4">
-          <ModalMounter text={"テキストテキスト"} imgpath={"/images/banner_movie.jpg"} />
-          <ModalMounter text={"レモン"} imgpath={"/logo.svg"} />
-        </div>
-        <Counter count={count} />
-      </div> */
-      }
+      
     </>
   );
 }
