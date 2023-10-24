@@ -99,6 +99,7 @@ export default function Home() {
                   height="164"
                 />
               </h1>
+              <p className="font-bold text-center mt-10"><span className="bg-pink-600 px-5 py-2 rounded text-white">本イベントは終了しました。ご参加いただきありがとうございました。</span></p>
               <div className="p-4 rounded-xl inline-block bg-white shadow sm:px-8 md:px-12 mt-12">
                 <div className="mb-3 flex flex-col items-center sm:flex-row sm:gap-4">
                   <span className="inline-block text-2xl font-extrabold">
@@ -114,9 +115,9 @@ export default function Home() {
                 <LinkButton
                   href="https://yumenosora.connpass.com/event/290309/"
                   target="_blank"
-                  className="bg-pink-600 text-white mt-2 hover:opacity-70 ease-linear duration-150"
+                  className="bg-gray-400 text-white mt-2 hover:opacity-70 ease-linear duration-150"
                 >
-                  参加申し込みをする（connpass）
+                  本イベントは終了しました
                 </LinkButton>
               </div>
               <img
@@ -210,9 +211,9 @@ export default function Home() {
                     <LinkButton
                       href="https://yumenosora.connpass.com/event/290309/"
                       target="_blank"
-                      className="bg-pink-600 text-white text-xs mt-2 hover:opacity-70 ease-linear duration-150"
+                      className="bg-gray-400 text-white text-xs mt-2 hover:opacity-70 ease-linear duration-150"
                     >
-                      参加申し込みをする（connpass）
+                      本イベントは終了しました
                     </LinkButton>
                   </div>
                 </div>
@@ -256,8 +257,8 @@ export default function Home() {
                 Access<br />
                 <span className="text-sm">アクセス</span>
               </h2>
-              <iframe className="h-[200px] md:h-[350px] rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2365.385951915328!2d139.7697966022491!3d35.69988444635659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c1c52026005%3A0x4e55145da9c5a233!2z44CSMTAxLTAwMjEg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65aSW56We55Sw77yR5LiB55uu77yX4oiS77yV!5e0!3m2!1sja!2sjp!4v1695640475761!5m2!1sja!2sjp" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              <div className="text-sm mt-4 flex flex-col sm:gap-2 sm:flex-row justify-between">
+              {/* <iframe className="h-[200px] md:h-[350px] rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2365.385951915328!2d139.7697966022491!3d35.69988444635659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c1c52026005%3A0x4e55145da9c5a233!2z44CSMTAxLTAwMjEg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65aSW56We55Sw77yR5LiB55uu77yX4oiS77yV!5e0!3m2!1sja!2sjp!4v1695640475761!5m2!1sja!2sjp" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+              <div className="text-sm mt-4 flex flex-col gap-2 items-center">
                 <p>
                   東京都千代田区外神田1-7-5　フロントプレイス秋葉原<br />
                   TKPガーデンシティPREMIUM秋葉原 3B
@@ -449,14 +450,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <a
+        {/* <a
           href="https://yumenosora.connpass.com/event/290309/"
           target="_blank"
           className="fixed bottom-3 left-3 bg-white flex items-center justify-center flex-col text-center w-24 h-24 rounded-full border text-xs text-pink-500 font-bold border-4 border-pink-500 ease-linear duration-150 shadow-lg md:w-28 md:h-28 md:text-sm lg:w-32 lg:h-32 lg:bottom-6 lg:left-6 lg:hover:bg-pink-50 lg:hover:bottom-8"
         >
           参加申し込み<br />をする<br />
           （connpass）
-        </a>
+        </a> */}
         {
           /* <a href="https://www.youtube.com/watch?v=dAt-r7-Imgk" target="_blank" className="fixed bottom-3 left-3 bg-white flex items-center justify-center flex-col text-center w-24 h-24 rounded-full border text-xs text-pink-500 font-bold border-4 border-pink-500 ease-linear duration-150 shadow-lg md:w-28 md:h-28 md:text-sm lg:w-32 lg:h-32 lg:bottom-6 lg:left-6 lg:hover:bg-pink-50 lg:hover:bottom-8">
           <img
