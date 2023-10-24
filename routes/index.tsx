@@ -109,15 +109,15 @@ export default function Home() {
                     @TOKYO Akihabara
                   </a>
                 </div>
-                <p className="mt-4 font-bold">
+                {/* <p className="mt-4 font-bold">
                   ＼　オフライン、オンラインで開催！！ ／
-                </p>
+                </p> */}
                 <LinkButton
                   href="https://yumenosora.connpass.com/event/290309/"
                   target="_blank"
                   className="bg-gray-400 text-white mt-2 hover:opacity-70 ease-linear duration-150"
                 >
-                  本イベントは終了しました
+                  ご参加いただきありがとうございました。
                 </LinkButton>
               </div>
               <img
@@ -205,15 +205,15 @@ export default function Home() {
                         @TOKYO Akihabara
                       </a>
                     </div>
-                    <p className="mt-3 font-bold text-sm">
+                    {/* <p className="mt-3 font-bold text-sm">
                       ＼　オフライン、オンラインで開催！！ ／
-                    </p>
+                    </p> */}
                     <LinkButton
                       href="https://yumenosora.connpass.com/event/290309/"
                       target="_blank"
                       className="bg-gray-400 text-white text-xs mt-2 hover:opacity-70 ease-linear duration-150"
                     >
-                      本イベントは終了しました
+                      ご参加いただきありがとうございました。
                     </LinkButton>
                   </div>
                 </div>
