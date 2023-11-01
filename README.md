@@ -1,11 +1,15 @@
-# Fresh project
+# Deno Fest website
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+'Deno Fest' is Deno's festival.  
+It was held in Akihabara, Tokyo on October 20, 2023.
+
+![](deno-fest-logo.png)
+
+This page is publish in [deno-fest-2023.deno.dev](https://deno-fest-2023.deno.dev/).  
+It is hosted on [Deno Deploy](https://deno.com/deploy).  
+The archive of the broadcast is available [here (YouTube)](https://www.youtube.com/live/dAt-r7-Imgk?si=YfqMH-11qMKuBmiT&t=878).
 
 ### Usage
-
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
 
 Then start the project:
 
