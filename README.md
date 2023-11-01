@@ -1,7 +1,7 @@
 # Deno Fest dedicated website
 
 'Deno Fest' is Deno's festival.  
-It was held on October 20th.
+It was held on October 20th, 2023.
 
 ![](deno-fest-logo.png)
 
